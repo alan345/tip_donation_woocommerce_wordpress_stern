@@ -1,5 +1,12 @@
 (function ($) {
     $(document).ready(function () {
+
+        $("#donation-amount").keyup(function () {
+          $(".donate-btn").show();
+        });
+        $("#donation-amount").bind('keyup mouseup', function () {
+          $(".donate-btn").show();
+        });
         $(".donate-btn").click(function () {
             $(".rpdo-error").hide();
             $(".rpdo_loader").show();
