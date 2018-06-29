@@ -32,6 +32,10 @@
             $(".rpdo-error").hide();
             $(".rpdo_loader").show();
             var ele=$(this).parent();
+
+            $(".donate-btn").hide();
+            $('.donation-amount').val(5);
+
             var amt=5;
             if(isNaN(amt)===true){
                 $(".rpdo-error").html("Please enter valid value.").show();
@@ -52,6 +56,10 @@
             $(".rpdo-error").hide();
             $(".rpdo_loader").show();
             var ele=$(this).parent();
+
+            $(".donate-btn").hide();
+            $('.donation-amount').val(10);
+
             var amt=10;
             if(isNaN(amt)===true){
                 $(".rpdo-error").html("Please enter valid value.").show();
@@ -72,6 +80,10 @@
             $(".rpdo-error").hide();
             $(".rpdo_loader").show();
             var ele=$(this).parent();
+
+            $(".donate-btn").hide();
+            $('.donation-amount').val(30);
+
             var amt=30;
             if(isNaN(amt)===true){
                 $(".rpdo-error").html("Please enter valid value.").show();
@@ -92,6 +104,10 @@
             $(".rpdo-error").hide();
             $(".rpdo_loader").show();
             var ele=$(this).parent();
+
+            $(".donate-btn").hide();
+            $('.donation-amount').val(20);
+
             var amt=20;
             if(isNaN(amt)===true){
                 $(".rpdo-error").html("Please enter valid value.").show();
